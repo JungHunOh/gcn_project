@@ -1,11 +1,6 @@
 # Iterative Visual Reasoning Beyond Convolutions
-By Xinlei Chen, Li-Jia Li, Li Fei-Fei and Abhinav Gupta. 
+This repo is from https://github.com/endernewton/iter-reason
 
-### Disclaimer
-  - This is the authors' implementation of the system described in the paper, not an official Google product.
-  - Right now:
-    - The available reasoning module is based on convolutions and spatial memory.
-    - For simplicity, the released code uses the tensorflow default `crop_and_resize` operation, rather than the customized one reported in the paper (I find the default one is actually better by ~1%).
 
 ### Prerequisites
 
@@ -110,12 +105,3 @@ By Xinlei Chen, Li-Jia Li, Li Fei-Fei and Abhinav Gupta.
 }
 ```
 
-The idea of spatial memory was developed in:
-```
-@inproceedings{chen2017spatial,
-    author = {Xinlei Chen and Abhinav Gupta},
-    title = {Spatial Memory for Context Reasoning in Object Detection},
-    booktitle = {Proceedings of the International Conference on Computer Vision},
-    Year = {2017}
-}
-```
